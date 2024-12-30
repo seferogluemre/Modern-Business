@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.bi-check-lg{
+    color: blue;
+}
+.mainHeader{
+    margin-top: 100px;
+}

@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    user-select: none;
+}
+.feature{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 3.3rem;
+}
+.advantagesSection{
+    margin-top: 100px;
+}
+.ContactForm{
+    margin-top: 150px!important;
+}

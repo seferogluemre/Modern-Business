@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainHeader{
+    padding: 100px 0px;
+}
+
+h2{
+    font-size: 1.25em;
+}
+.featured{
+    width: 3rem;
+    padding: 3px 10px;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+/* Media Query */
+/* Medium Screen */
+@media (min-width: 768px) and (max-width: 991px) {
+    .headerİmg{
+        display: none!important;
+    }
+
+}
+
+/* Small Screen */
+@media (min-width: 276px) and (max-width: 767px) {
+    .headerİmg{
+        display: none!important;
+    }
+    .btn{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
